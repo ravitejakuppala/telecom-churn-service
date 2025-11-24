@@ -31,7 +31,7 @@ http://127.0.0.1:8000/docs
 ```
 
 ## Endpoints
-- `GET /healthz` → {"status":"ok","model_loaded":true}
+- `GET /status` → {"status":"ok","model_loaded":true}
 - `GET /version` → service & model path
 - `POST /predict` → `{"instances":[{...feature columns...}]}`
 
