@@ -1,4 +1,4 @@
-# Telecom Churn Inference Service (Custom)
+# Telecom Churn Inference Service 
 
 This microservice trains a churn model on your telecom dataset and serves predictions via FastAPI.
 
