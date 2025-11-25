@@ -5,7 +5,7 @@ from typing import List, Dict, Any
 import os, joblib
 import pandas as pd
 
-MODEL_PATH = os.getenv("MODEL_PATH", "models/churn_pipeline.joblib")
+MODEL_PATH = os.getenv("MODEL_PATH", "churn_pipeline.joblib")
 SERVICE_VERSION = "1.1.0"
 
 # Load model at startup
